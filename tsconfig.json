@@ -1,5 +1,4 @@
 { 
-  "extends": "../../tsconfig.base.json",
   "files": [],
   "include": [
     "src/renderer/src/env.d.ts",
@@ -8,9 +7,6 @@
     "src/preload/*.d.ts"
   ],
   "references": [
-    {
-      "path": "../../apps/server/tsconfig.json"
-    },
     {
       "path": "./tsconfig.web.json"
     },

@@ -102,6 +102,7 @@ const  createdValidCode = (data:any) => {
               })
               sessionStorage.setItem("user", JSON.stringify(res.data))  // 缓存用户信息
               this.$router.push("/") 
+            }
               else {
               this.$message({
                 type: "error",
